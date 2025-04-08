@@ -256,7 +256,6 @@ def list_files():
 
 
 
-# 保持原有的 /api/extract、/api/tasks 接口不变
 @app.route('/api/extract', methods=['POST'])
 def start_extraction():
     """启动解压任务"""
@@ -320,7 +319,7 @@ def get_task(task_id):
             "progress": task.progress,
             "logs": task.output[-10:]
         })
-# ... [保持原有路由定义] ...
+
 if __name__ == '__main__':
     os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
     app.run(host='0.0.0.0', port=5000)
