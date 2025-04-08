@@ -2,7 +2,6 @@
 [![element-ui](https://img.shields.io/badge/Element--UI-2.15.14-green)](https://element.eleme.io)
 [![vue](https://img.shields.io/badge/Vue.js-2.x-brightgreen)](https://vuejs.org)
 基于Vue.js + Element UI构建的Web文件管理系统，提供目录导航、文件管理、压缩包解压等功能。
-![Demo截图](screenshot.png) <!-- 建议实际添加截图 -->
 ## 功能亮点 ✨
 ### 文件管理
 - 🗂 可视化目录结构展示
